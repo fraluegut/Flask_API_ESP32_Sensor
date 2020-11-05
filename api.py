@@ -7,7 +7,7 @@ import datetime
 
 app = Flask(__name__)
 api = Api(app)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://u263757875_fraluegut:FJLG.C4d1z@185.224.138.28/u263757875_prueba'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'DATABASE'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_ENGINE_OPTIONS'] = {
         "pool_pre_ping": True,
